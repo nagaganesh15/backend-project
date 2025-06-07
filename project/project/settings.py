@@ -27,8 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['backend-project-19se.onrender.com', 'localhost', '127.0.0.1']
 
-
-WSGI_APPLICATION = 'project.wsgi.application'
+WSGI_APPLICATION = 'project.project.wsgi.application'
 
 
 # Application definition

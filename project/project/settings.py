@@ -26,9 +26,8 @@ SECRET_KEY = '29QG5bnn3TLFSJmczaAij7DsrbLSpROM7AJzzaM2pdZM7REi8a_R70TDgIivymB4ov
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = False
-DJANGO_SETTINGS_MODULE = 'project.project.settings'
 PORT = 8000
-ALLOWED_HOSTS = ['https://backend-project-production-9359.up.railway.app/','backend-project-19se.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['backend-project-production-9359.up.railway.app','backend-project-19se.onrender.com', 'localhost', '127.0.0.1']
 
 WSGI_APPLICATION = 'project.project.wsgi.application'
 
@@ -142,3 +141,6 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_DIRS = [BASE_DIR / 'static']

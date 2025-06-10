@@ -20,12 +20,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ko%k@r@8j4i*@z=))@)dy8x7q!fa()6cqg+c3#6(^c0t_0o5jo'
+SECRET_KEY = '29QG5bnn3TLFSJmczaAij7DsrbLSpROM7AJzzaM2pdZM7REi8a_R70TDgIivymB4ov0'
+# SECRET_KEY = 'django-insecure-ko%k@r@8j4i*@z=))@)dy8x7q!fa()6cqg+c3#6(^c0t_0o5jo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = ['backend-project-19se.onrender.com', 'localhost', '127.0.0.1']
+# DEBUG = True
+DEBUG = False
+DJANGO_SETTINGS_MODULE = 'project.project.settings'
+PORT = 8000
+ALLOWED_HOSTS = ['https://backend-project-production-9359.up.railway.app/','backend-project-19se.onrender.com', 'localhost', '127.0.0.1']
 
 WSGI_APPLICATION = 'project.project.wsgi.application'
 

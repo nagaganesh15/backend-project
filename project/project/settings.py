@@ -24,8 +24,8 @@ SECRET_KEY = '29QG5bnn3TLFSJmczaAij7DsrbLSpROM7AJzzaM2pdZM7REi8a_R70TDgIivymB4ov
 # SECRET_KEY = 'django-insecure-ko%k@r@8j4i*@z=))@)dy8x7q!fa()6cqg+c3#6(^c0t_0o5jo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-# DEBUG = False
+# DEBUG = True
+DEBUG = False
 PORT = 8000
 ALLOWED_HOSTS = ['backend-project-production-9359.up.railway.app','backend-project-19se.onrender.com', 'localhost', '127.0.0.1','0.0.0.0']
 # ALLOWED_HOSTS=[]
